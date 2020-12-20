@@ -18,7 +18,7 @@ There are 7 different scenarios, you can select each one of them by setting the 
 # Examples
 ## 2 agents with different priority (a)
 ![](https://github.com/jimas95/Multi-Agent-Navigation/blob/main/GIFS/two_agents.gif)
-## 8 agents in a circle
+## 8,12,16,20,24 agents in a circle
 ![](https://github.com/jimas95/Multi-Agent-Navigation/blob/main/GIFS/agents_circle.gif)
 ## 40 agents with square obstacles
 ![](https://github.com/jimas95/Multi-Agent-Navigation/blob/main/GIFS/40_agents_square_obstacles.gif)
