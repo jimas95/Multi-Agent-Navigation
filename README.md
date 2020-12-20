@@ -1,6 +1,7 @@
 # Multi-Agent-Navigation
-Free Navigation Of Multiple Agents
-This project is a Matlab implementation of the paper  [Reciprocal Velocity Obstacles for Real-Time Multi-Agent Navigation](https://ieeexplore.ieee.org/document/4543489).
+Navigation Of Multiple Agents.
+This project is an implementation of the paper  [Reciprocal Velocity Obstacles for Real-Time Multi-Agent Navigation](https://ieeexplore.ieee.org/document/4543489).
+It is written in Matlab.
 # Goal
 The goal of the project is that given a number of n agents, the current location of each one, the goal position and the current velocity of K nearest neighbors for each agent find the appropriate velocity (linear & angular) in order to have zero collisions.
 # Execute
