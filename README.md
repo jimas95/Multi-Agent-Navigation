@@ -4,6 +4,19 @@ This project is an implementation of the paper  [Reciprocal Velocity Obstacles f
 It is written in Matlab.
 # Goal
 The goal of the project is that given a number of n agents, the current location of each one, the goal position and the current velocity of K nearest neighbors for each agent find the appropriate velocity (linear & angular) in order to have zero collisions.
+
+# Code files
+
+1. `VOR_RUN_V01.m` type (main), main file of project creates and executes each scenario, count step execution time and if any collisions have happened. Variable ΕΧ (line 33) selects scenarios and nx is the total number of agents.
+2. `RobotClass.m` type (class), each object of this class represents an agent, containing info such as velocity current position or size.
+3. `Square.m` type (class), each objected of this class represents a square obstacle 
+4. `Cone.m` type (class), each object represents a cone RVO_AB.
+5. `execute_one_step.m` type (function), this is the 'heart' of our implementation calls all the appropriate functions in order to update velocities for all agents for one step dt.
+6. `rand_cir.m` type (function), return N uniformly sampling points inside a circle.
+7. `circle_sampling.m` type (independent program), made for debugging to prove the random uniform sampling of a circle works correctly.
+8. `cone_test.m` type (independent program), made for debugging purposes to see visually that we can find points that are inside or outside a cone.
+
+
 # Execute
 1. In order to run the code open in Matlab the directory `matlab_code`.
 2. Execute `VOR_RUN_V01.m`
